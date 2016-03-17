@@ -3,15 +3,16 @@ var http = require("http")
 var express = require("express")
 var app = express()
 var port = process.env.PORT || 5000
+var templateDir = '/templates'
 
 app.use(express.static(__dirname + "/"))
 
 app.get('/', function(req, res){
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + templateDir +'/index.html');
 });
 
 app.get('/c', function(req, res){
-  res.sendFile(__dirname + '/input.html');
+  res.sendFile(__dirname + templateDir +'/input.html');
 });
 
 
