@@ -10,15 +10,15 @@
     "ws": "0.4.x"
   },
   "scripts": {
-    "start": "index.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": "0.10.x"
   },
-  "scripts": {
-    "start": "node index.js"
-  },
   "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
     "nodemon": "^1.9.1"
   }
 }
