@@ -1,0 +1,13 @@
+{
+    "name":  "Gramotime",
+    "version": "0.0.1",
+    "dependencies": {
+        "twitter": "latest",
+        "jQuery": "latest",
+        "font-awesome": "latest",
+        "modernizr": "latest",
+        "normalize-css": "latest",
+        "animate.css": "latest",
+        "hammerjs": "latest"
+    }
+}
