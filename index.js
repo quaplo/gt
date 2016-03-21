@@ -5,6 +5,7 @@ var app = express()
 var port = process.env.PORT || 5000
 var templateDir = '/templates'
 
+
 app.use(express.static(__dirname + "/"))
 
 app.get('/', function(req, res){
