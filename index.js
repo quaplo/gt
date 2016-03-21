@@ -4,7 +4,7 @@ var express = require("express")
 var app = express()
 var port = process.env.PORT || 5000
 var templateDir = '/templates'
-
+var db = null;
 
 app.use(express.static(__dirname + "/"))
 
